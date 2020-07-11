@@ -18,7 +18,7 @@ function App() {
       }}
     >
       <img
-        src={'/images/promo.jpg'}
+        src={'./images/promo.jpg'}
         style={{
           width:'95vw',
           maxWidth:800
