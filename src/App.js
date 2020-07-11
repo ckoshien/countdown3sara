@@ -21,7 +21,7 @@ function App() {
         src={'./images/promo.jpg'}
         style={{
           width:'95vw',
-          maxWidth:800
+          //maxWidth:800
         }}
         alt={'画像'}
       />
