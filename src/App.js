@@ -18,6 +18,7 @@ function App() {
 
 
   return (
+    <>
     <div
       style={{
         margin:5,
@@ -54,8 +55,15 @@ function App() {
         {zeroPadding(duration.seconds(),2)}秒
         </div>
       </div>
-      
     </div>
+    <div>
+        <img
+          style={{
+            width:'95vw'
+          }} 
+          src={'https://res.cloudinary.com/dgonrnjmq/image/upload/v1593469234/cap-baseball/649/NLAA9WRrS4mHjlnZCUUb_ow54ij.png'}/>
+      </div>
+    </>
   );
 }
 
