@@ -1,15 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './index.css';
 import moment from 'moment';
 
 function App() {
   const [displayT, setDisplayT] = useState();
   const duration = moment.duration( moment('2020-08-15 09:00').diff(moment()) );;
-  setInterval(
-    ()=>{
-      setDisplayT(duration);
-    },1000
-  )
+  useEffect(()=>{
+    const interval = setInterval(
+      ()=>{
+        setDisplayT(duration);
+      },1000
+    )
+    return()=>{
+      clearInterval(interval);
+    }
+  },[duration])
+
+
   return (
     <div
       style={{
@@ -42,9 +49,9 @@ function App() {
             fontSize:'3vw'
           }}
         >
-        {duration.hours()}時間
-        {duration.minutes()}分
-        {duration.seconds()}秒
+        {zeroPadding(duration.hours(),2)}時間
+        {zeroPadding(duration.minutes(),2)}分
+        {zeroPadding(duration.seconds(),2)}秒
         </div>
       </div>
       
@@ -53,3 +60,7 @@ function App() {
 }
 
 export default App;
+
+function zeroPadding(NUM, LEN){
+	return ( Array(LEN).join('0') + NUM ).slice( -LEN );
+}
