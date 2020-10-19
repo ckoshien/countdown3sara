@@ -23,7 +23,7 @@ function App() {
         }}
       >
         <img
-          src={"https://res.cloudinary.com/dgonrnjmq/image/upload/v1594471036/cap-baseball/649/promo_skm7rj.jpg"}
+          src={"https://res.cloudinary.com/dgonrnjmq/image/upload/v1603145681/cap-baseball/649/okjjwk.jpg"}
           style={{
             width: "95vw",
             //maxWidth:800
@@ -52,16 +52,6 @@ function App() {
             {zeroPadding(duration.seconds(), 2)}秒
           </div>
         </div>
-      </div>
-      <div>
-        <img
-          style={{
-            width: "95vw",
-          }}
-          src={
-            "https://res.cloudinary.com/dgonrnjmq/image/upload/v1593469234/cap-baseball/649/NLAA9WRrS4mHjlnZCUUb_ow54ij.png"
-          }
-        />
       </div>
     </>
   );
