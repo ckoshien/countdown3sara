@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/countdown3sara/static/css/main.580e6dcb.chunk.css",
-    "main.js": "/countdown3sara/static/js/main.76c1d4b0.chunk.js",
+    "main.css": "/countdown3sara/static/css/main.c019da07.chunk.css",
+    "main.js": "/countdown3sara/static/js/main.4e224534.chunk.js",
     "runtime-main.js": "/countdown3sara/static/js/runtime-main.78351555.js",
     "static/js/2.915f6b7a.chunk.js": "/countdown3sara/static/js/2.915f6b7a.chunk.js",
     "index.html": "/countdown3sara/index.html",
-    "precache-manifest.2361481e82964ccba311138d39fe551f.js": "/countdown3sara/precache-manifest.2361481e82964ccba311138d39fe551f.js",
+    "precache-manifest.043130d2a4972869da5827eaa4e51757.js": "/countdown3sara/precache-manifest.043130d2a4972869da5827eaa4e51757.js",
     "service-worker.js": "/countdown3sara/service-worker.js",
     "static/js/2.915f6b7a.chunk.js.LICENSE.txt": "/countdown3sara/static/js/2.915f6b7a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.78351555.js",
     "static/js/2.915f6b7a.chunk.js",
-    "static/css/main.580e6dcb.chunk.css",
-    "static/js/main.76c1d4b0.chunk.js"
+    "static/css/main.c019da07.chunk.css",
+    "static/js/main.4e224534.chunk.js"
   ]
 }
