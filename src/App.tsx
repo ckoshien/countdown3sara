@@ -3,8 +3,8 @@ import "./index.css";
 import moment from "moment";
 
 function App() {
-  const [displayT, setDisplayT] = useState();
-  const duration = moment.duration(moment("2020-10-24 18:00").diff(moment()));
+  const [displayT, setDisplayT] = useState<moment.Duration>();
+  const duration = moment.duration(moment("2022-02-11 18:00").diff(moment()));
   useEffect(() => {
     const interval = setInterval(() => {
       setDisplayT(duration);
@@ -23,7 +23,7 @@ function App() {
         }}
       >
         <img
-          src={"https://res.cloudinary.com/dgonrnjmq/image/upload/v1603145681/cap-baseball/649/okjjwk.jpg"}
+          src={"/countdown3sara/images/background.jpg"}
           style={{
             width: "95vw",
             //maxWidth:800
@@ -59,6 +59,6 @@ function App() {
 
 export default App;
 
-function zeroPadding(NUM, LEN) {
+function zeroPadding(NUM:number, LEN:number) {
   return (Array(LEN).join("0") + NUM).slice(-LEN);
 }
